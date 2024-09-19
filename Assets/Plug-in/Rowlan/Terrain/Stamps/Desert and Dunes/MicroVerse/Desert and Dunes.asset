@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ede25ccd6fd4e8e98a828e1f7c552d, type: 3}
+  m_Name: Desert and Dunes
+  m_EditorClassIdentifier: 
+  contentType: 0
+  author: Rowlan
+  packName: Desert and Dunes
+  id: https://assetstore.unity.com/packages/slug/219815
+  contents:
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: a5a796fd904a655418e80a010d11bbcd
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 5f352e94dd64f6745b4dafd1aae45b49
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 70bd17208979eb04ab886494eb671536
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 56c1dbb90b5881541ac219ed81e0e630
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 662beb48b8639da47ab76cbb784aabb8
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: d72271486ae67424ea158cc26d6f5fe5
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: ab6fb5a900da50c4bb2ab59062c588a4
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 6df194ed3d302d34dbeb13a776ac97c9
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 391eb789ec1065d4599fa0bed6ebeac8
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: bcbf137d683cd004897a795ee8b850b4
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 98c6dee0a3aff284d8f986f11ee49483
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 56dfe7f96c08909459645d687dd7faef
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: bd7c89beaaf8b1844867cb89b541fc1c
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: a8a10c00b199a9345b134e874317258d
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 62865e89564d9a44d8e30f22d293988a
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 0782246fbab035543bf5ffdf6d824080
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 3aceb0ab47234b8428b6d4ad41cf5d8e
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 4d621d9cf0920a94d97d8ab343bfd10e
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 17fa3688e3dd8da42b0b5faebffe85ee
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: ae981651480ad8d41b9dfba4d0460124
