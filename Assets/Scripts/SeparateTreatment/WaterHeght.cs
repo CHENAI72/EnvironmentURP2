@@ -4,104 +4,60 @@ using UnityEngine;
 
 public class WaterHeght : MonoBehaviour
 {
-    [SerializeField] GameObject TheWater;
-    [SerializeField] float Speed;
+ 
+    [SerializeField] float TheTime=4f;
     [SerializeField] float Max;
     [SerializeField] float Min;
 
-    [HideInInspector]
-    public bool IsUp;
-    [HideInInspector]
-    public bool IsDown;
+    private bool movingUp = true;
 
-    private float Heght;
-    private float time;
-
-
-
-    //private GameInputValue TheValue;
-    //private float IsValue;
-    //private float IsValue2;
-    //private void OnEnable()
-    //{
-    //    TheValue = GameObject.Find("GameCtrl").GetComponent<GameInputValue>();
-    //}
-    // Start is called before the first frame update
     void Start()
     {
-        
-        //TheValue.m_InputData.Thevalue += PosValue;
-       
+        StartCoroutine("MoveBetweenPoints");
     }
-
-    private void OnDisable()
+    private void OnDestroy()
     {
-       // TheValue.m_InputData.Thevalue -= PosValue;
+        StopCoroutine("MoveBetweenPoints");
     }
-
-    // Update is called once per frame
-    void Update()
+    IEnumerator MoveBetweenPoints()
     {
-        if (TheWater != null )
+        while (true)
         {
-            time += Time.deltaTime;
-            if (IsDown && time >= 4)
+            if (movingUp)
             {
-
-                Heght += (Time.deltaTime * Speed) / 1000f;
-                TheWater.transform.position = Vector3.Lerp(TheWater.transform.position, new Vector3(TheWater.transform.position.x, TheWater.transform.position.y - Heght, TheWater.transform.position.z), 2);
-                if (TheWater.transform.position.y < Min)
+            
+                float startTime = Time.time;
+                float elapsed = 0.0f;
+               
+                while (elapsed < TheTime)
                 {
-                 
-                    time = 0;
-                    Heght = 0;
-                    IsDown = false;
-                    IsUp = true;
+                    float t = elapsed / TheTime;
+             
+                    transform.position = new Vector3(transform.position.x, Mathf.Lerp(Min, Max, t), transform.position.z);
+                    elapsed = Time.time - startTime;
+                    yield return null; 
                 }
 
+                movingUp = false; 
             }
-            else if (IsUp && time >= 4)
+            else
             {
+              
+                float startTime = Time.time;
+                float elapsed = 0.0f;
 
-                Heght += (Time.deltaTime * Speed) / 1000f;
-                TheWater.transform.position = Vector3.Lerp(TheWater.transform.position, new Vector3(TheWater.transform.position.x, TheWater.transform.position.y + Heght, TheWater.transform.position.z), 2);
-                if (TheWater.transform.position.y > Max)
+                while (elapsed < TheTime)
                 {
-                  
-                    time = 0;
-                    Heght = 0;
-                    IsDown = true;
-                    IsUp = false;
+                    float t = elapsed / TheTime;
+                    transform.position = new Vector3(transform.position.x, Mathf.Lerp(Max, Min, t), transform.position.z);
+                    elapsed = Time.time - startTime;
+                    yield return null; 
                 }
 
+                movingUp = true; 
             }
+          
         }
-            //    if (IsValue== IsValue2)
-            //    {
-            //        IsDown = false;
-            //        IsUp = false;
-            //    }
+    }
 
-            //    if (IsDown)
-            //    {
-
-
-            //        TheWater.transform.position = Vector3.Lerp(TheWater.transform.position, new Vector3(TheWater.transform.position.x, TheWater.transform.position.y +( 0.01f* IsValue), TheWater.transform.position.z), 2);
-
-            //    }
-            //    else if (IsUp)
-            //    {
-
-
-            //        TheWater.transform.position = Vector3.Lerp(TheWater.transform.position, new Vector3(TheWater.transform.position.x, TheWater.transform.position.y - (0.01f * IsValue), TheWater.transform.position.z), 2);
-
-            //    }
-            //    TheWater.transform.position =new Vector3(TheWater.transform.position.x, Mathf.Clamp(TheWater.transform.position.y, Min, Max), TheWater.transform.position.z);
-            //    IsValue2 = IsValue;
-            //}
-        }
-    //    private void PosValue(float Value)
-    //{
-    //    IsValue = Value;
-    //}
 }
