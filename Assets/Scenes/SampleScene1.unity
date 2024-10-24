@@ -1621,7 +1621,7 @@ RectTransform:
   m_Father: {fileID: 209977975}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1984,130 +1984,130 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Frames:
-  - Texture: {fileID: 2800000, guid: 32b9fdc37d0687945b270219d83f036a, type: 3}
+  - Texture: {fileID: 2800000, guid: b3395939112625349a1429fb95111c57, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 9b9b6e13cc3a7eb4796343fdb4079089, type: 3}
+  - Texture: {fileID: 2800000, guid: 95538c79648a61846b5c7f00fa407ae6, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: ceefbd7caaad87d4780f0744b2c8625a, type: 3}
+  - Texture: {fileID: 2800000, guid: e09f283b36d1b344aa655207fbcc300d, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: aeb29d0859a1c344eaf767308db320e3, type: 3}
+  - Texture: {fileID: 2800000, guid: 021a08223eaa0dd45919bca80547617b, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 6de5c014249988f4097e6864520c6a92, type: 3}
+  - Texture: {fileID: 2800000, guid: 6d75eff30cb6f4549b3d7eb3ffb09a46, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: 90a880cd6c8040243a8f680cb3658354, type: 3}
+  - Texture: {fileID: 2800000, guid: 59ebb28acd5b5ac4bac40057887bb860, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: d80f40e968e7eb44486acae7a6bbb7f0, type: 3}
+  - Texture: {fileID: 2800000, guid: 26cf7e0c5914173409cffc0dace7ac74, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: ccefe9582e7e9924bb28f70318b33f78, type: 3}
+  - Texture: {fileID: 2800000, guid: 7fcdc38be7340124b928444c875b0ce8, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: 0cc34a56b4a40054ea4462f336ba17e1, type: 3}
+  - Texture: {fileID: 2800000, guid: fcd73e3c236a6d045ae9fd239246073c, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 0f2560840fca18a4092dffa745f7929d, type: 3}
+  - Texture: {fileID: 2800000, guid: 293c8083c54faed47ad6a7452a8d771b, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 400a7a18f172f8e46adcf3e8b6b6bfe8, type: 3}
+  - Texture: {fileID: 2800000, guid: 8ead6fc95a9735946a1afeb5495740ba, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: c853e9a9253e02e4189780cee73e5b07, type: 3}
+  - Texture: {fileID: 2800000, guid: 002e839d658c0db4c8e2170f7bfe76eb, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 1e3831319f7b8f741b9e082d3a12568c, type: 3}
+  - Texture: {fileID: 2800000, guid: 988e1131570bda843a4ec44d4161b240, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 53a127f77e6a8f24595f8eb1e6415e3a, type: 3}
+  - Texture: {fileID: 2800000, guid: f1bf1b2829e25d843bc3c9a730f6e842, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: 1467f35429dcf9b4cb8cfb295b6216db, type: 3}
+  - Texture: {fileID: 2800000, guid: f6cd987b280256a4d9400a2a6416839d, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 0a02458087f7fc847986a195f5ea5ffc, type: 3}
+  - Texture: {fileID: 2800000, guid: 6acbbf1cb3b57f54b9bf8576a64e4c8a, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: f3ac7d494c366ed4eb664b4b86af0d9f, type: 3}
+  - Texture: {fileID: 2800000, guid: 8a00dd507ffdfd047bb110d0e5d9b75e, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: a02b63860a9b653428cfc18b814892a6, type: 3}
+  - Texture: {fileID: 2800000, guid: 4698d94d8b0c2ca4d811fcdc0294ead2, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 8f79ebcd8d25a6144bbb390c49764461, type: 3}
+  - Texture: {fileID: 2800000, guid: 49c2977051bd8b94298bd811919843ba, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: a27c35531df66d347a48fb398cb5001d, type: 3}
+  - Texture: {fileID: 2800000, guid: ee018f64fcffbff49a1e82a8c4978c16, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: 65032ecbfe8c1f44591d9112ed754851, type: 3}
+  - Texture: {fileID: 2800000, guid: fbab66180314804449e967eb8ec414fd, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 784a7c3b576f5844881c99317981c5a9, type: 3}
+  - Texture: {fileID: 2800000, guid: 08ad37e173976ae4290dfa58419bea00, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: df2d3d1f735641242a191537f1dd939a, type: 3}
+  - Texture: {fileID: 2800000, guid: 7840abaca6252b347b305b1d3a6cd4c5, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: 8b841c08e99a0e24fadedaa5da936ddc, type: 3}
+  - Texture: {fileID: 2800000, guid: 7ac2ece7f9ebc9c4399def34059bed77, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 4c7ea6c1f3cf00044a661d0ee392646c, type: 3}
+  - Texture: {fileID: 2800000, guid: 8457bdd953e59444787e4e20236fd00e, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: c0683b1d34e9a114abb489c74e986602, type: 3}
+  - Texture: {fileID: 2800000, guid: 6530e75a83e4f57439e5a543dddb8b9b, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: f84bce26e90284c4ebfc4dd80be2cc3c, type: 3}
+  - Texture: {fileID: 2800000, guid: 5b92d22cc87312944954e040f84c46c2, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 0853734824d638247a9cfd07a4d3e135, type: 3}
+  - Texture: {fileID: 2800000, guid: bfc8708c73513cf43ab784b611a5b154, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 7cd218b249b6f614ba3e3194ddb1f18c, type: 3}
+  - Texture: {fileID: 2800000, guid: 267d34af7a13ea74891acdefa6831ac0, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: c1bfccf96c1395c4e9fa11ccbbc01967, type: 3}
+  - Texture: {fileID: 2800000, guid: d17af1f04f078c4469973ad4a2e5e755, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 0c543e00a9814784f9866fb37d5e14cd, type: 3}
+  - Texture: {fileID: 2800000, guid: ee8d2929df5dcc74d8914ebd0a00f5e5, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: cf9a6a6fea2297b47ab220a2e9e252ba, type: 3}
+  - Texture: {fileID: 2800000, guid: 1e7876202d9d42e4a83d969be1cfac79, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: 65561afcd04823a4b8dc6ab9e7a21a0e, type: 3}
+  - Texture: {fileID: 2800000, guid: 9fb8750adec9d6e42942d5aea407b231, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: ece79912b73459f4d824d941525a2319, type: 3}
+  - Texture: {fileID: 2800000, guid: 91404db66055ee04f8cfa2ba344cf17f, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 360d9b8e700146b4ca3e36d6be085796, type: 3}
+  - Texture: {fileID: 2800000, guid: b05edee384bea0440a4f5286d26e7e74, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: 5695062cb68da7740b0d6babc9899d15, type: 3}
+  - Texture: {fileID: 2800000, guid: 1ac38042f36ced74195945573ffcc5ca, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 216461318f40c354cb794bd1de4b3be8, type: 3}
+  - Texture: {fileID: 2800000, guid: 735bf53994d2c364394a54694c97fc17, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 2a33df7b28931f94990662d2c88b41c1, type: 3}
+  - Texture: {fileID: 2800000, guid: 39cd840784c51b14eaaa267032dfc5d7, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: 6591402f9e1825d4e822a425add54a0f, type: 3}
+  - Texture: {fileID: 2800000, guid: c802480f23b63804db8bcb7aeeed5b83, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: d6bf543cf2b5ff0459df01af18155f64, type: 3}
+  - Texture: {fileID: 2800000, guid: 0838ceec6af60374580a7a79ac9accfd, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 867ea45d6d6acd14b9fbc5cda9b636f8, type: 3}
+  - Texture: {fileID: 2800000, guid: 399d4d38db166db49a4f6a9094c2cc89, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: 93553ba5bc580414facf90701b6a03bf, type: 3}
+  - Texture: {fileID: 2800000, guid: e26de687834ab0742ad606cdf1b3dec2, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 6a9ad1d056229b6418f529ea8d34d8d3, type: 3}
+  - Texture: {fileID: 2800000, guid: b233a420e9a655a4abd82bc0195b2a98, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 9363d89bd7d44c045842c368639bfd13, type: 3}
+  - Texture: {fileID: 2800000, guid: 6bd76e7b32d28474ab2d798651d61276, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: 9fc61a60242f49c42a440b562ee4e8d2, type: 3}
+  - Texture: {fileID: 2800000, guid: 29288bdf77c2472438972ea9153ca460, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 889ca1268a6ac8d4c8f02e2ff0e2334d, type: 3}
+  - Texture: {fileID: 2800000, guid: efb8320bb7bba0b4381784dbc4ed1458, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: c6ea992ef1dadf94c9e8979bfcc4a5fe, type: 3}
+  - Texture: {fileID: 2800000, guid: dd409bd81b5c2614998276c24b233c7a, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: 1d510bb134b08fb4181a7bc99228148f, type: 3}
+  - Texture: {fileID: 2800000, guid: 6c34ed522bfaaca4391023d517cb6342, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: e9726dca55934114298ac9b164463a86, type: 3}
+  - Texture: {fileID: 2800000, guid: b03e639186c5da14e8dc07bac46cfbe1, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: b6fe68fcc28935142b7cdab7c1c41ed7, type: 3}
+  - Texture: {fileID: 2800000, guid: 5cbf977bab71f6847a6770767268757e, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: 879f12c1b6d392c4b90ff4ee2416cf94, type: 3}
+  - Texture: {fileID: 2800000, guid: e5c55f4c02e7f9644aa9d883110091d4, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 0f5db810e27625e4099afff8cf6305d0, type: 3}
+  - Texture: {fileID: 2800000, guid: 717c24485de59684bb1577cd2b5861e6, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: 00a590913641dab4b95800d6d8791aa2, type: 3}
+  - Texture: {fileID: 2800000, guid: c6f13a4964a1f844783f3400c74d1af4, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: f42a2fe3aa87f84449131087a4947e5c, type: 3}
+  - Texture: {fileID: 2800000, guid: e7d8c3cda1b869e449c7d85984c856bc, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: cf4cd688aaf84884a871d8cf0065801f, type: 3}
+  - Texture: {fileID: 2800000, guid: 89f42876aba03244292cf7d8040956a0, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: e77079dc8d3eaaf418ba22e536dfc408, type: 3}
+  - Texture: {fileID: 2800000, guid: 5fed583f6da58a644bc6331c0342f8fb, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: a2482a54db796344089684047f94383d, type: 3}
+  - Texture: {fileID: 2800000, guid: f2fcb3b221a832943a1a43440a92f6da, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: fbb709c7b8117894e811c0e224e5f5e9, type: 3}
+  - Texture: {fileID: 2800000, guid: 4dc0447d88aee59469a74cecae81a410, type: 3}
     DelaySeconds: 0.03
-  - Texture: {fileID: 2800000, guid: cf6a46086a01d8645add572f6ac13a64, type: 3}
+  - Texture: {fileID: 2800000, guid: dc31b0cbbb809d54ea5f9bd10fa2e039, type: 3}
     DelaySeconds: 0.04
-  - Texture: {fileID: 2800000, guid: 58d13c2583daaaa4b8fcd11cc3ba965d, type: 3}
+  - Texture: {fileID: 2800000, guid: fbd0fb0e431d580469efedb19c37e3eb, type: 3}
     DelaySeconds: 0.04
   _simpleFrames: []
   _simpleFramesIntervalSeconds: 0
   _loop: 1
-  GifAsset: {fileID: 4900000, guid: de2861bed8d2ba74a96562128a293a5a, type: 3}
+  GifAsset: {fileID: 4900000, guid: 4b922eaa295319947810828ef33a4268, type: 3}
   IsPreloaded: 1
 --- !u!1 &1144095112
 GameObject:
@@ -2505,7 +2505,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2009421703
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2572,10 +2572,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 938161907}
   m_HandleRect: {fileID: 2105901004}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.2
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.2
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2733,7 +2733,7 @@ RectTransform:
   m_Father: {fileID: 18188956}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
