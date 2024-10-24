@@ -373,7 +373,7 @@ public class GameCtrl : MonoBehaviour
             case "TestWater":
                 float TestValue1 = Mathf.Clamp(Value, 0f, 2f);
                 float complement = 1 - TestValue1;
-      
+                GameThePath[name].gameObject.GetComponent<Scene3WaterLight>().Setlightvalue(Value);
                 if (h==0&&str==0&& Lang==0)
                 {
                    
