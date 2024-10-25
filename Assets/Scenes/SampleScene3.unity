@@ -24624,7 +24624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TheTime: 3
-  Max: 5.3
+  Max: 5.5
   Min: 3.3
 --- !u!114 &8693902037158218597
 MonoBehaviour:
